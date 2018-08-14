@@ -1,0 +1,16 @@
+{
+  "name": "speech",
+  "version": "1.0.0",
+  "description": "Transcribing live audio of infinite duration using Google Cloud Speech to Text API - Demo",
+  "main": "transcribe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chaitanya Prakash N <cpdevws@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^2.0.0",
+    "node-record-lpcm16": "^0.3.1",
+    "yargs": "^12.0.1"
+  }
+}
