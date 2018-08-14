@@ -10,6 +10,10 @@ The script stages the the audio/microphone input into a buffer before transcribi
 
 #### To run the demo
 
+##### Do not forget to configure environment variable `GOOGLE_APPLICATION_CREDENTIALS` with the GCP credentails JSON file path
+```
+export GOOGLE_APPLICATION_CREDENTIALS='/path/to/credentials.json'
+```
 ##### Install dependencies
 ```
 npm install 
